@@ -4,7 +4,6 @@
   <img alt="Status Badge" src="https://img.shields.io/badge/Status-On-brightgreen?style=plastic">
   <img alt="Status Badge" src="https://img.shields.io/badge/Replit%20Deploy%20Status-Working-orange?style=plastic">
   <img alt="Status Badge" src="https://img.shields.io/badge/Vercel%20Deploy%20Status-Working-black?style=plastic">
-  <img alt="Status Badge" src="https://img.shields.io/badge/Render%20Deploy%20Status-Pending Link Removal-red?style=plastic">
 </p>
 <p align="center">
   <img alt="Language badge" src="https://img.shields.io/badge/Language-Node.js-yellow?style=plastic">
@@ -146,7 +145,7 @@ uv - Contains all files for Ultraviolet Backend Script
 - [x] Add ***WEBRETRO EMULATOR*** into `./static/gfiles/rarch`
 - [x] Add *WEBRETRO* into `g.html` and *add* some downloadable ROMs into `g.html` page.
 - [x] Add webretro help in `support.html`
-- [ ] Add at least *10 **downloadable** ROMs* into `g.html` page
+- [ ] Add at least *5 **downloadable** ROMs* into `g.html` page
 - [x] Add **Futbin** web into `Sites` Page (for FIFA)
 - [x] Add a ***NEW* PROXY** ***(Womginx)***
 - [x] Add ***Node Unblocker PROXY***
