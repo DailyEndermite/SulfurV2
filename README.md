@@ -17,7 +17,7 @@
 ### Render deployed instances (GeneralMathsMOD links hosted on render)are going to be removed very soon due to my economical situation and will never be used again! I am currently testing netlify looking for support. Use, till I put as the main link a non hosted on render link, use this one [gmaths tmp](https://gmaths-tmp.moddedstuffguy.repl.co/)
  
 ## CURRENT VERSION
-Version **7.1b** (see **CHANGELOG** for *more information*)
+Version **7.2.0** (see **CHANGELOG** for *more information*)
 
 ## CHANGELOG
 [GeneralMathsMOD CHANGELOG](CHANGELOG.md)
@@ -154,7 +154,7 @@ uv - Contains all files for Ultraviolet Backend Script
 - [x] Fix Node Unblocker
 - [x] Create scripts for Womginx and Nodeunb for using proxy with iframe method
 - [ ] Add another proxy server
-- [ ] ***Remove** Deployed render instances (Links hosted on render.)* ***NOTE:*** Users will ***still** be able to deploy* the project into render if they can afford it!
+- [x] ***Remove** Deployed render instances (Links hosted on render.)* ***NOTE:*** Users will ***still** be able to deploy* the project into render if they can afford it!
 - [x] ***Fix Endless** building* step on **netlify** and on **vercel**
 - [x] Create Branch for Vercel Deploys
 - [x] ***Deploy* GeneralMathsMOD** into **vercel** once the *endless build* bug gets fixed so I can *test for support*.
