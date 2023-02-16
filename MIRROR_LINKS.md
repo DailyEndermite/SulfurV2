@@ -6,4 +6,4 @@ Also, if links end in `repl.co` and they give the error `This repl is very popul
 As well, replit Mirror links will be rarely updated (whenever I have time of doing so.)
 
 ## Mirror Links
-- [https://gmathsmod-m1.onrender.com](https://gmathsmod-m1.onrender.com)
+- Deploying links
