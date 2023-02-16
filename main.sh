@@ -1,5 +1,5 @@
 git submodule update --init
-#uncomment the following line to enable a node.js updater
+#uncomment the following to enable a nodejs updater
 #bash nodeUpdater.sh
-#if you activate the nodejs updater, comment the following line
+#if you activate the updater, comment the following 
 bash run.sh
