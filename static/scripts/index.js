@@ -68,8 +68,8 @@ function makeloader(){
   }
 
 document.body.addEventListener("keydown", function (event) {
-    if (event.key === "=") {
-        window.location.replace("https://drive.google.com/");
+    if (event.key === "=" || event.key === "<" || event.key === ">") {
+        window.location.replace("https://classroom.google.com/");
     }
 });
 
