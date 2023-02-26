@@ -1,5 +1,5 @@
-# JAVASCRIPT BOOKMARKLETS CREDITS
+# JAVASCRIPT BOOKMARKS' CREDITS
  - ErudaDevtools => [Eruda Repository](https://github.com/liriliri/eruda)
- - Firebug Devtools (restored) => [Luphoria](https://luphoria.com)
- - LocalStorage Inspector => [Potch](http://potch.me/ls/)
- - Script Prompt => Searching for the exact name of the github user who created it :P
+ - Firebug Devtools - restored (Comming soon) => [Luphoria's web](https://luphoria.com) / [Luphoria's GITHUB profile](https://github.com/Luphoria)
+ - LocalStorage Inspector (I am not gonna implement it) => [Potch](http://potch.me/ls/)
+ - Script Prompt => Caiross
