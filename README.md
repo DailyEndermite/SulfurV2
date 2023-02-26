@@ -24,7 +24,7 @@ Version **7.2.0** (see **CHANGELOG** for *more information*)
 [JS Bookmarklet Credits](jscredits.md)
 
 ## MIRROR LINKS
-[MIRROR_LINKS.md](MIRROR_LINKS.md)
+DM `Moddedstuffguy#PendingDiscordId:P` on discord with a screenshot of a blocked generalmathsmod domain
 
 # ATTENTION
 This MOD ***is a work in progress***. This means that, if you **deploy *this repository***, there *might be some **issues***. Look inside the [TO DO Section](#generalmathsmod-to-do-list) on *this README* for *more information* about what is going *to be done* in this ***MOD***
