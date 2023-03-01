@@ -24,19 +24,19 @@ Version **7.2.0** (see **CHANGELOG** for *more information*)
 [JS Bookmarklet Credits](jscredits.md)
 
 ## MIRROR LINKS
-DM `Moddedstuffguy#PendingDiscordId:P` on discord with a screenshot of a blocked generalmathsmod domain
+**DM** `Moddedstuffguy#5027` on *discord* with ***proofs*** of **blocked** domain
 
 # ATTENTION
-This MOD ***is a work in progress***. This means that, if you **deploy *this repository***, there *might be some **issues***. Look inside the [TO DO Section](#generalmathsmod-to-do-list) on *this README* for *more information* about what is going *to be done* in this ***MOD***
+This MOD ***is a work in progress***. There *might* be some **issues**. Look inside the [TO DO Section](#generalmathsmod-to-do-list) on *this README* to see what is *thought* to be done on this ***MOD***
 
 ## Features 
 - Tons of apps & games
 - History hider (about:blank Cloak)
 - Sleek UI with good animations
 - Tab cloaker (Change TAB's Name and Logo)
+- Useful Bookmarks list
 - Support page to help lost and confused people
 - 2 working emulators
-- Mirror links page
 - 3 unblockers / proxies
 - And more!
 
@@ -56,7 +56,6 @@ This MOD ***is a work in progress***. This means that, if you **deploy *this rep
 
 ## General Mathematics MOD Quick Deploys
 
-[![Run on Replit](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg)](https://replit.com/github/moddedstuffguy/GeneralMathsMOD)
 [![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/moddedstuffguy/GeneralMathsMOD)
 [![Deploy to Netlify](https://binbashbanana.github.io/deploy-buttons/buttons/remade/netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/moddedstuffguy/GeneralMathsMOD)
 [![Deploy to Vercel](https://binbashbanana.github.io/deploy-buttons/buttons/remade/vercel.svg)](https://vercel.com/new/clone?repository-url=https://github.com/moddedstuffguy/GeneralMathsMOD/tree/vercelVersion/)
@@ -69,19 +68,7 @@ $ npm install
 $ npm start
 ```
 
-## Replit Setup Guide
-
-Click the ***Run on Replit*** button and ***CHOOSE*** Node.JS as the language.
-To setup on Replit, first click on the ***"Run on Replit"*** button. After loading into your repl, run the following commands:
-```sh
-$ chmod +x main.sh
-$ ./main.sh
-```
-OR
-```sh
-$ bash main.sh
-```
-**NOTE:** On Repl, The command `git submodule update --init` has to be executed (This shouldn't be necessary because the command is automatically executed when running the `main.sh` script)
+## Replit has *prohibited* the deploy of proxies ***(as written is Replit ToS).*** Replit deploys won't be available.
 
 ## Vercel Setup Guide
 Click on the "Deploy to Vercel" button and deploy the branch named `vercelVersion`
@@ -158,6 +145,7 @@ uv - Contains all files for Ultraviolet Backend Script
 - [x] ***Deploy* GeneralMathsMOD** into **vercel** once the *endless build* bug gets fixed so I can *test for support*.
 - [x] Put vercel deployed instance link into the repository
 - [ ] Deploy into netlify
+- [x] Remove replit deploys ='(
 
 ## Credits
 
