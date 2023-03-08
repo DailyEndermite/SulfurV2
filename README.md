@@ -56,7 +56,7 @@ This MOD ***is a work in progress***. There *might* be some **issues**. Look ins
 ## General Mathematics MOD Quick Deploys
 
 [![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/moddedstuffguy/GeneralMathsMOD)
-[![Deploy to Netlify](https://binbashbanana.github.io/deploy-buttons/buttons/remade/netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/moddedstuffguy/GeneralMathsMOD)
+[![Deploy to Netlify](https://binbashbanana.github.io/deploy-buttons/buttons/remade/netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/moddedstuffguy/GeneralMathsMOD/tree/vercelVersion)
 [![Deploy to Vercel](https://binbashbanana.github.io/deploy-buttons/buttons/remade/vercel.svg)](https://vercel.com/new/clone?repository-url=https://github.com/moddedstuffguy/GeneralMathsMOD/tree/vercelVersion/)
 ## Basic Guide (for terminal users)
 
@@ -70,7 +70,7 @@ $ npm start
 ## Replit has *prohibited* the deploy of proxies ***(as written is Replit ToS).*** Replit deploys won't be available.
 
 ## Vercel Setup Guide
-Click on the "Deploy to Vercel" button and deploy the branch named `vercelVersion`
+Click on the "Deploy to Vercel" button and deploy the branch named `vercelVersion` (just change (on vercel dashboard) in Vercel Prooject git settings the default branch from `main` to `vercelVersion`)
 
 ## Render Setup Guide
 Click on the `Deploy to Render` green button...
