@@ -145,6 +145,7 @@ uv - Contains all files for Ultraviolet Backend Script
 - [x] Put vercel deployed instance link into the repository
 - [ ] Deploy into netlify
 - [x] Remove replit deploys ='(
+- [ ] Add Super Mario 64 game! 
 
 ## Credits
 
