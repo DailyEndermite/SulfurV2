@@ -68,7 +68,7 @@ function makeloader(){
   }
 
 document.body.addEventListener("keydown", function (event) {
-    if (event.key === "=" || event.key === "<" || event.key === ">") {
+    if (event.key === "$" || event.key === "°" || event.key === "ç" || event.key === "¦" || event.key === "|") {
         window.location.replace("https://classroom.google.com/");
     }
 });
