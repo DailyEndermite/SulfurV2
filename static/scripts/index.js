@@ -21,6 +21,7 @@ scriptTAG.integrity = "sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=";
 scriptTAH.crossorigin = "anonymous";
 var scriptT2 = document.createElement("script");
 scriptT2.src = "https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js";
+scriptT2.type = "module";
 
 form.addEventListener('submit', async event => {
     makeloader()
