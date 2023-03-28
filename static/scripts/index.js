@@ -16,9 +16,11 @@ if (urlParams.get("url") != null) {
 }
 
 var scriptTAG = document.createElement("script");
-scriptTAG.src = "https://code.jquery.com/jquery-3.6.4.js"
-scriptTAG.integrity = "sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
-scriptTAH.crossorigin = "anonymous"
+scriptTAG.src = "https://code.jquery.com/jquery-3.6.4.js";
+scriptTAG.integrity = "sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=";
+scriptTAH.crossorigin = "anonymous";
+var scriptT2 = document.createElement("script");
+scriptT2.src = "https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js";
 
 form.addEventListener('submit', async event => {
     makeloader()
