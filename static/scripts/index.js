@@ -15,6 +15,11 @@ if (urlParams.get("url") != null) {
   });
 }
 
+var scriptTAG = document.createElement("script");
+scriptTAG.src = "https://code.jquery.com/jquery-3.6.4.js"
+scriptTAG.integrity = "sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+scriptTAH.crossorigin = "anonymous"
+
 form.addEventListener('submit', async event => {
     makeloader()
     event.preventDefault();
