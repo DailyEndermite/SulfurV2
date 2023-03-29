@@ -163,14 +163,14 @@ crossorigin="anonymous"></script>
 <script>
   function ChangeBG() {
     var bgurl = document.getElementById("bgurl").value
-    if (bgurl !=== null || bgurl !=== "" || bgurl !=== "null") {
+    if (bgurl !=== "" || bgurl !=== "null") {
       Cookies.set("bg", bgurl);
       document.getElementsByTagName('body')[0].style.backgroundImage = "url('" + bgurl + "')";
-      parent.location.reload();
+      location.reload();
     }
-    else if (bgurl === null || bgurl === "" || bgurl === "null") {
+    else if (bgurl === "" || bgurl === "null") {
       Cookies.set("bg", "");
-      parent.location.reload();
+      location.reload();
     }
   }
 </script>
