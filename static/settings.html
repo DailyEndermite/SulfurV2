@@ -165,6 +165,8 @@ crossorigin="anonymous"></script>
     var bgurl = document.getElementById("bgurl").value
     if (bgurl !=== null || bgurl !=== "" || bgurl !=== "null") {
       Cookies.set("bg", bgurl);
+      document.getElementsByTagName('body')[0].style.backgroundImage = "url('" + bgurl + "')";
+      parent.location.reload();
     }
     else if (bgurl === null || bgurl === "" || bgurl === "null") {
       Cookies.set("bg", "");
