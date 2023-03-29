@@ -6,6 +6,11 @@ if (getCookie("title") == "")
 {
     setCookie("title", "General Mathematics", 365*100);
 }
+if (getCookie("bg") == "")
+{
+    setCookie("bg", "./img/bg/default.jpg", 365*100);
+}
+
 var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
 link.type = 'image/x-icon';
 link.rel = 'shortcut icon';
