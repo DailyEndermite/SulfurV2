@@ -120,6 +120,9 @@
         <button onclick="savePallet('background/#3D3A50;sidebarcolor1/#303041;sidebarcolor2/#0EA2F6;textcolor/#F4FCFE;')">Default</button>
         <button onclick="savePallet('background/#FFFFFF;sidebarcolor1/#FFFFFF;sidebarcolor2/#000000;textcolor/#000000;')">White</button>
         <button onclick="savePallet('background/#101010;sidebarcolor1/#000000;sidebarcolor2/#89CFF0;textcolor/#89CFF0;')">Black</button>
+    <h2>Custom Background</h2>
+        <input id="bgurl" placeholder="Enter the URL of the background image" value="">
+        <button onclick="ChangeBG()">Apply Custom BG</button>
 <div>
 <hr>
     <h2>TAB CLOAKER</h2>
@@ -157,3 +160,15 @@
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1387459768572671"
 crossorigin="anonymous"></script>
 <script src="scripts/original_bg_REMOVER.js"></script>
+<script>
+  function ChangeBG() {
+    var bgurl = document.getElementById("bgurl").value
+    if (bgurl !=== null || bgurl !=== "" || bgurl !=== "null") {
+      Cookies.set("bg", bgurl);
+    }
+    else if (bgurl === null || bgurl === "" || bgurl === "null") {
+      Cookies.set("bg", "");
+      parent.location.reload();
+    }
+  }
+</script>
