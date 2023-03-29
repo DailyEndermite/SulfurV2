@@ -1,14 +1,17 @@
-if (getCookie("icon") == "")
-{
-    setCookie("icon", "./img/icons/math.ico", 365*100);
+// Modules
+import jsCookie from 'https://cdn.jsdelivr.net/npm/js-cookie/+esm'
+
+if (jsCookie.get("icon") == "") {
+    // setCookie("icon", "./img/icons/math.ico", 365*100);
+    jsCookie.set("icon", "./img/icons/math.ico)
 }
-if (getCookie("title") == "")
-{
-    setCookie("title", "General Mathematics", 365*100);
+if (jsCookie.get("title") == "") {
+    // setCookie("title", "General Mathematics", 365*100);
+    jsCookie.set("title", "General Maths MOD")
 }
-if (getCookie("bg") == "")
+if (jsCookie.get("bg") == "")
 {
-    setCookie("bg", "./img/bg/default.jpg", 365*100);
+    jsCookie.set("bg", "./img/bg/default.jpg");
 }
 
 var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
@@ -17,9 +20,9 @@ link.rel = 'shortcut icon';
 link.href = getCookie("icon");
 document.getElementsByTagName('head')[0].appendChild(link);
 
-document.title = getCookie("title");
-document.getElementsByTagName("TITLE")[0].text = getCookie("title");
-var cookieValueBG = getCookie("bg");
+document.title = jsCookie.get("title");
+document.getElementsByTagName("TITLE")[0].text = jsCookie.get("title");
+var cookieValueBG = jsCookie.get("bg");
 document.getElementsByTagName('body')[0].style.backgroundImage = "url('" + cookieValueBG + "')";
 
 function setIcon(lnk)
@@ -29,15 +32,15 @@ function setIcon(lnk)
     link.rel = 'shortcut icon';
     link.href = lnk;
     document.getElementsByTagName('head')[0].appendChild(link);
-    setCookie("icon", lnk, 365*100);
+    jsCookie.set("icon", lnk);
 }
 function setTitle(title)
 {
     document.title = title;
     document.getElementsByTagName("TITLE")[0].text = title;
-    setCookie("title", title, 365*100);
+    jsCookie.set("title", title);
 }
-//cookie functions from w3schools
+// cookie functions from w3schools
 function setCookie(cname, cvalue, exdays) {
   const d = new Date();
   d.setTime(d.getTime() + (exdays*24*60*60*1000));
