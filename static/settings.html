@@ -160,16 +160,17 @@
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1387459768572671"
 crossorigin="anonymous"></script>
 <script src="scripts/original_bg_REMOVER.js"></script>
+<script type="module">import jsCookie from 'https://cdn.jsdelivr.net/npm/js-cookie/+esm'</script>
 <script>
   function ChangeBG() {
     var bgurl = document.getElementById("bgurl").value
     if (bgurl !=== "" || bgurl !=== "null") {
-      Cookies.set("bg", bgurl);
+      jsCookie.set("bg", bgurl);
       document.getElementsByTagName('body')[0].style.backgroundImage = "url('" + bgurl + "')";
       location.reload();
     }
     else if (bgurl === "" || bgurl === "null") {
-      Cookies.set("bg", "");
+      jsCookie.set("bg", "");
       location.reload();
     }
   }
