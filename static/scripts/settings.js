@@ -8,7 +8,7 @@ if (getCookie("title") == "")
 }
 if (getCookie("bg") == "")
 {
-    // pending fill
+    setCookie("bg", "./img/bg/default.jpg", 365*100);
 }
 
 var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
