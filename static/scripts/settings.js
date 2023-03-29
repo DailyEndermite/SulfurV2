@@ -19,6 +19,8 @@ document.getElementsByTagName('head')[0].appendChild(link);
 
 document.title = getCookie("title");
 document.getElementsByTagName("TITLE")[0].text = getCookie("title");
+var cookieValueBG = getCookie("bg");
+document.getElementsByTagName('body')[0].style.backgroundImage = "url('" + cookieValueBG + "')";
 
 function setIcon(lnk)
 {
