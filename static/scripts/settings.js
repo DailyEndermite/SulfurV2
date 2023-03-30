@@ -3,7 +3,7 @@ import jsCookie from 'https://cdn.jsdelivr.net/npm/js-cookie/+esm'
 
 if (jsCookie.get("icon") == "") {
     // setCookie("icon", "./img/icons/math.ico", 365*100);
-    jsCookie.set("icon", "./img/icons/math.ico);
+    jsCookie.set("icon", "./img/icons/math.ico");
 }
 if (jsCookie.get("title") == "") {
     // setCookie("title", "General Mathematics", 365*100);
