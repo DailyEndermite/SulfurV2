@@ -1,5 +1,5 @@
 // Modules
-import JCookies from 'https://cdn.jsdelivr.net/npm/js-cookie/+esm'
+import jsCookie from 'https://cdn.jsdelivr.net/npm/js-cookie/+esm'
 // Consts
 const form = document.querySelector('form');
 const input = document.querySelector('input');
