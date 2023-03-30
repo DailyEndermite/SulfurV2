@@ -1,4 +1,10 @@
 // Made by ModdedStuffGuy
 var LocalStorageName = "stylepallet";
-var LocalStorageTXT = "background/#;sidebarcolor1/#303041;sidebarcolor2/#0EA2F6;textcolor/#F4FCFE;"
-localStorage[LocalStorageName] = LocalStorageTXT;
+if (jsCookie.get("stylepallet") == "background/url(./img/bg/default.jpg);sidebarcolor1/#11101d;sidebarcolor2/#fff;textcolor/#fff;") {
+    var LocalStorageTXT = "background/url(./img/bg/default.jpg);sidebarcolor1/#11101d;sidebarcolor2/#fff;textcolor/#fff;;";
+    localStorage[LocalStorageName] = LocalStorageTXT;
+}
+else {
+    var url = jsCookie.get("bg");
+    var LocalStorageTXT = "background/url("+url");sidebarcolor1/#11101d;sidebarcolor2/#fff;textcolor/#fff";
+}
